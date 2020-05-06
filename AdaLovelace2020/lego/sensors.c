@@ -4,7 +4,7 @@
 #include <stdio.h>
 
 #include "sensors.h"
-#include <variables.h>
+#include "variables.h"
 
 //This file includes functions used for sensors (excluding the camera)
 

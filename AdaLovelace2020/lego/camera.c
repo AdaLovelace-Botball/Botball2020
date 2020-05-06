@@ -3,8 +3,8 @@
 //
 #include <stdio.h>
 
-#include <camera.h>
-#include <variables.h>
+#include "camera.h"
+#include "variables.h"
 
 //This file includes functions used for the camera
 
