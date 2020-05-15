@@ -5,12 +5,16 @@
 
 #include "drive_systems.h"
 #include "drive_systems.h"
-#include <kipr/wombat.h>
+#include <../kipr/wombat.h>
 #include <servos&motors.h>
 #include "variables.h"
 
 //This file includes functions used for movement involving wheels
 //Functions include: forward_t, backward_t, left_t, right_t, forward_d, backward_d, left_d, right_d
+
+// _t means for a certain amount of time
+// _d means for a certain distance
+// _i means rotating until you get to the correct angle
 
 void forward_t(int speed, float seconds) {
     forward_i(speed);
