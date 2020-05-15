@@ -2,7 +2,7 @@
 // Created by Becky on 5/15/2020.
 //
 
-#include <kipr/botball.h>
+#include <../kipr/wallaby.h>
 #include "../include/Robot.h"
 #include "2019-Defines.h"
 //The first team to yeet a botguy and succeed
