@@ -15,7 +15,7 @@
 // INFO the robot should be in the start position.
 // For later (if needed): Recalculate distance to the ramp if it is in a different position.
 void move_to_ramp() {
-    forward_d(60, 2);
+    forward_t(30, 2);
 }
 
 void move_antennae(){
@@ -52,13 +52,18 @@ int main()
     enable_servos();
     printf("Hello World\n");
 
-    move_to_ramp();
-    //move_toward_mountain();
+    // move to coupler under the ramp so we can remove it
+    move_toward_mountain();
+    // TODO remove the coupler
+
 
     msleep(5000);
     printf("Hello World\n");
 
     //drive_w_arm(5, arm_down);
+
+    // TODO go on the ramp
+    //move_to_ramp();
 
     disable_servos();
     return 0;
